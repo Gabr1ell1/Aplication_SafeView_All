@@ -2,33 +2,33 @@
 
 📌 React / React Native
 
-react — 19.1.0
-react-native — 0.81.5
+- react — 19.1.0
+- react-native — 0.81.5
 
 📌 Principais libs do Expo (Verifique se há e se estão corretas)
 
-expo — ~54.0.23
-expo-dev-client — ~6.0.17
-expo-font — ~14.0.9
-expo-linear-gradient — ~15.0.7
-expo-screen-orientation — ~9.0.7
-expo-secure-store — ~15.0.7
-expo-status-bar — ~3.0.8
+- expo — ~54.0.23
+- expo-dev-client — ~6.0.17
+- expo-font — ~14.0.9
+- expo-linear-gradient — ~15.0.7
+- expo-screen-orientation — ~9.0.7
+- expo-secure-store — ~15.0.7
+- expo-status-bar — ~3.0.8
 
 📌 React Navigation
 
-@react-navigation/native — ^7.1.20
-@react-navigation/stack — ^7.6.4
+- @react-navigation/native — ^7.1.20
+- @react-navigation/stack — ^7.6.4
 
 
 📌 Utilitários React Native
 
-react-native-gesture-handler — ~2.28.0
-react-native-keyboard-aware-scroll-view — ^0.9.5
-react-native-reanimated — ~4.1.1
-react-native-safe-area-context — ~5.6.0
-react-native-screens — ~4.16.0
-react-native-worklets — 0.5.1
+- react-native-gesture-handler — ~2.28.0
+- react-native-keyboard-aware-scroll-view — ^0.9.5
+- react-native-reanimated — ~4.1.1
+- react-native-safe-area-context — ~5.6.0
+- react-native-screens — ~4.16.0
+- react-native-worklets — 0.5.1
 
 
 # 1. Timeout no EAS Build
