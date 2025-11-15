@@ -30,6 +30,16 @@
 - react-native-screens — ~4.16.0
 - react-native-worklets — 0.5.1
 
+# Development Build
+
+- Utiliaando EAS (Develpment Build).
+- É preciso estar logado mo expo.dev!!!
+- How to configure a development build | EAS Tutorial - Link: https://youtu.be/uQCE9zl3dXU
+- Para construir o app:
+eas build --profile development --platform android
+- How to create and run a cloud build for Android | EAS Tutorial - Link: https://youtu.be/D612BUtvvl8
+- Para rodar o app:
+npx expo start
 
 # 1. Timeout no EAS Build
 
@@ -42,13 +52,4 @@
 
 Se o Metro ou o Gradle encontram uma versão inconsistente, eles travam e o EAS mata por timeout.
 
-# Development Build
-
-- Utiliaando EAS (Develpment Build).
-- É preciso estar logado mo expo.dev!!!
-- How to configure a development build | EAS Tutorial - Link: https://youtu.be/uQCE9zl3dXU
-- Para construir o app:
-eas build --profile development --platform android
-- How to create and run a cloud build for Android | EAS Tutorial - Link: https://youtu.be/D612BUtvvl8
-- Para rodar o app:
-npx expo start
+# 2. 
