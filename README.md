@@ -92,7 +92,6 @@ expo login
 - 2. Inicializar o EAS:
 eas build:configure
 
-
 - E depois rodar:
 eas build -p android
 
