@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "SafeView",
+    "slug": "SafeView",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Icone_App.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/LoadingImage.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F1A2C"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/LoadingImage.png",
+        "backgroundColor": "#0F1A2C"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.gabysse_tec.SafeView"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d33d3acd-642b-4070-aa7f-5456ee4ea5d3"
+      }
+    },
+    "owner": "gabysse_tec"
+  }
+}
