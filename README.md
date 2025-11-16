@@ -41,7 +41,37 @@ eas build --profile development --platform android
 - Para rodar o app:
 npx expo start
 
-# 1. Timeout no EAS Build
+# 1. O que é o Expo.dev?
+
+É o site oficial do Expo, onde você:
+
+- cria uma conta
+
+- envia seu projeto
+
+- gera builds (APK) para instalar no Android
+
+- vê histórico das versões criadas
+
+- Site: expo.dev
+
+# 2. O que é o EAS Build?
+
+EAS (Expo Application Services) é o sistema do Expo que cria o APK.
+
+Funciona assim:
+
+- Você manda o projeto pro EAS
+
+- Ele faz todo o processo de criar o app
+
+- Ele te dá um link pronto pra baixar o APK
+
+Ou seja:
+
+👉 EAS Build = máquina que gera o app pronto para instalar.
+
+# 3. Timeout no EAS Build
 
 - O build demorou demais → pode ser:
 - internet lenta no servidor
@@ -52,4 +82,26 @@ npx expo start
 
 Se o Metro ou o Gradle encontram uma versão inconsistente, eles travam e o EAS mata por timeout.
 
-# 2. 
+# Primeira vez usando o EAS?
+
+Eles precisam:
+
+- 1. Fazer login:
+expo login
+
+- 2. Inicializar o EAS:
+eas build:configure
+
+
+- E depois rodar:
+
+eas build -p android
+
+# 5. Como instalar o APK no celular
+
+- O Expo entrega um link do tipo:
+
+https://expo.dev/artifacts/xxxxx.apk
+
+
+É só baixar e instalar.
