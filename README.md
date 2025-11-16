@@ -90,6 +90,7 @@ Eles precisam:
 expo login
 
 - 2. Inicializar o EAS:
+
 eas build:configure
 
 
