@@ -103,3 +103,6 @@ https://expo.dev/artifacts/xxxxx.apk
 
 
 É só baixar e instalar.
+
+
+<!-- Falta nesse app: a tela de configurações e a tela de cadastro dois não funciona por causa do picker
