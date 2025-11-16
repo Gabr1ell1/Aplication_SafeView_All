@@ -1,8 +1,11 @@
 import React from 'react';
 import { Modal, Pressable, View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import { useNavigation } from '@react-navigation/native';
 
 export default function MenuModal({ visible, onClose }) {
+    const navigation = useNavigation();
+  
   return (
     <Modal
       transparent={true}
@@ -13,12 +16,24 @@ export default function MenuModal({ visible, onClose }) {
       <Pressable style={styles.overlay} onPress={onClose}>
         
         <Pressable style={styles.menuContainer}>
-          <TouchableOpacity style={styles.menuButton}>
-            <Ionicons name="person" size={24} color="white" />
-            <Text style={styles.menuText}>Meu perfil</Text>
+          <TouchableOpacity
+              style={styles.menuButton}
+              onPress={() => {
+                onClose();
+                navigation.navigate("Perfil");
+              }}
+            >
+              <Ionicons name="person" size={24} color="white" />
+              <Text style={styles.menuText}>Meu perfil</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.menuButton}>
+         <TouchableOpacity
+            style={styles.menuButton}
+            onPress={() => {
+              onClose();
+              // navigation.navigate("Configuracoes"); 
+            }}
+          >
             <Ionicons name="settings" size={24} color="white" />
             <Text style={styles.menuText}>Configurações</Text>
           </TouchableOpacity>
