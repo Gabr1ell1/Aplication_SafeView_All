@@ -14,7 +14,7 @@ import {
 } from 'react-native';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { Ionicons } from '@expo/vector-icons';
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { doc, setDoc } from 'firebase/firestore';
 import { auth, db } from '../firebaseConfig';
 
@@ -181,9 +181,6 @@ export default function Cadastro2({ navigation, route }) {
       });
        
       Alert.alert('Sucesso', 'Cadastro realizado!');
-
-      //!!Trocar para direcionar para tela inicial
-      navigation.navigate('CadastroUsers');
       } catch (error) {
       console.error(error);
 

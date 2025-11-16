@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { SafeAreaView, Text, StyleSheet, Dimensions, StatusBar } from "react-native";
-import * as ScreenOrientation from "expo-screen-orientation";
+import React, { useEffect, useState } from 'react';
+import { SafeAreaView, Text, StyleSheet, Dimensions, StatusBar } from 'react-native';
+import * as ScreenOrientation from 'expo-screen-orientation';
 
-import CameraCarousel from "../components/CameraCarousel";
-import StatusRow from "../components/StatusRow";
-import MenuModal from "../components/MenuModal";
+import CameraCarousel from '../components/CameraCarousel';
+import StatusRow from '../components/StatusRow';
+import MenuModal from '../components/MenuModal';
+
+
 
 export default function TelaInicial() {
   const [screenWidth, setScreenWidth] = useState(Dimensions.get("window").width);

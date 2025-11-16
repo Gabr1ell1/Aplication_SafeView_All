@@ -1,6 +1,6 @@
-import React from "react";
-import { Modal, Pressable, View, Text, StyleSheet, TouchableOpacity } from "react-native";
-import { Ionicons } from "@expo/vector-icons";
+import React from 'react';
+import { Modal, Pressable, View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 
 export default function MenuModal({ visible, onClose }) {
   return (

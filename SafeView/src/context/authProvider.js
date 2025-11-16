@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { AuthContext } from "./authContext";   
-import { getUser, saveUser, logoutUser } from "../services/authStorage";
+import { useEffect, useState } from 'react';
+import { AuthContext } from './authContext';   
+import { getUser, saveUser, logoutUser } from '../services/authStorage';
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from 'react';
 import {
   View,
   Text,
@@ -9,18 +9,18 @@ import {
   Platform,
   TouchableOpacity,
   StatusBar,
-} from "react-native";
-import * as ScreenOrientation from "expo-screen-orientation";
-import { useNavigation } from "@react-navigation/native";
-import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../firebaseConfig";
-import { saveUser } from "../services/authStorage"; 
+} from 'react-native';
+import * as ScreenOrientation from 'expo-screen-orientation';
+import { useNavigation } from '@react-navigation/native';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { auth } from '../firebaseConfig';
+import { saveUser } from '../services/authStorage'; 
 
-import style from "../style";
-import Input from "../components/Input";
-import FundoDegrade from "../components/FundoDegrade";
-import Botao from "../components/Botao";
+import style from '../style';
+import Input from '../components/Input';
+import FundoDegrade from '../components/FundoDegrade';
+import Botao from '../components/Botao';
 
 export default function Login() {
       const navigation = useNavigation();
